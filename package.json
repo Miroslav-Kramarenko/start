@@ -9,8 +9,10 @@
   "author": "Miroslav",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.23.6",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.7.0",
     "stylus": "^0.54.5"
   },
   "dependencies": {

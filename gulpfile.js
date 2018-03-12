@@ -10,7 +10,7 @@ gulp.task('styles', function () {
   return gulp.src('./src/app.styl')
     .pipe(stylus({
       'include css': true
-    })
+    }))
     .pipe(rename('style.css'))
     .pipe(gulp.dest('./public/css'))
 });
